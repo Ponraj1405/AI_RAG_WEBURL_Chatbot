@@ -1,0 +1,32 @@
+# API Keys - NEVER push to GitHub
+.env
+
+# Virtual environment
+rag_env/
+venv/
+env/
+
+# FAISS vector store (auto generated)
+*.pkl
+faiss_store_hf.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# HuggingFace model cache
+.cache/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
